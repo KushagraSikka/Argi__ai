@@ -22,3 +22,4 @@ The actions provided by the webapp are:
 5. Crop Health:Determining the outcome of the harvest season, i.e. whether the crop is healthy (alive), or has been damaged by pesticides or by any other reason.
  
 ![alt.text](Crop_Health.png)
+# Argi__ai
