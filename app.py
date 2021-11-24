@@ -94,8 +94,19 @@ def img_to_bytes(img_path):
 #@st.cache(allow_output_mutation=True)
 
 def main():
+    
 
     components.html("""
+  <div class="col-lg-6">
+                                <div class="mapouter mb-60">
+                                    <div class="gmap_canvas">
+                                        <iframe width="100%" height="735" id="gmap_canvas"
+                                            src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
 
     <div id="google_translate_element"></div><script>
 
@@ -111,7 +122,7 @@ def main():
 
     </script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
-    """,height=100,)
+    """,height=954,)
 
     html_temp = """
     <div>
